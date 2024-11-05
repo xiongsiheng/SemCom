@@ -1,0 +1,30 @@
+{"First-Order Logic": "∀x (Happy(x) ∧ Smart(x) → Rich(x))"}
+{"First-Order Logic": "∃x ∀y (Friend(x, y) ∧ Likes(x, y))"}
+{"First-Order Logic": "∀x (DrinkRegularly(x, coffee) → IsDependentOn(x, caffeine))"}
+{"First-Order Logic": "Happy(Henry) ∨ ¬Rich(Henry)"}
+{"First-Order Logic": "∀x ∃y (Owns(x, y) ∧ Drives(x, y))"}
+{"First-Order Logic": "¬∀x (Likes(Jack, x) → Friend(Jack, x))"}
+{"First-Order Logic": "∃x (Knows(Alice, x) ⊕ Trusts(Alice, x))"}
+{"First-Order Logic": "∀x (WorksFor(x, Company) ∧ LivesIn(x, City) → Happy(x))"}
+{"First-Order Logic": "Smart(Emily) ∧ ¬Rich(Emily)"}
+{"First-Order Logic": "∀x ∃y (Friend(x, y) ∧ Trusts(y, x))"}
+{"First-Order Logic": "Likes(Frank, Alice) ∨ ¬Knows(Alice, Frank)"}
+{"First-Order Logic": "∀x (DrinkRegularly(x, tea) ∧ ¬DrinkRegularly(x, coffee))"}
+{"First-Order Logic": "¬∀x (Teaches(x, Henry) → Smart(x))"}
+{"First-Order Logic": "∃x (WorksFor(x, Company) ⊕ Drives(x, Car))"}
+{"First-Order Logic": "∀x ∃y (LivesIn(x, City) ∧ Helps(x, y))"}
+{"First-Order Logic": "Happy(Grace) ∧ ∀x (Friend(Grace, x) → Likes(Grace, x))"}
+{"First-Order Logic": "∃x ∀y (Believes(x, y) ∨ ¬Trusts(x, y))"}
+{"First-Order Logic": "Rich(Bob) ∧ ¬Owns(Bob, Car)"}
+{"First-Order Logic": "∀x (Friend(Emily, x) → ¬Likes(x, Emily))"}
+{"First-Order Logic": "∃x (Teaches(x, Alice) ∧ Knows(x, Alice))"}
+{"First-Order Logic": "Smart(Alice) ⊕ Happy(Alice)"}
+{"First-Order Logic": "¬∀x (Rich(x) → Owns(x, House))"}
+{"First-Order Logic": "Drives(Charles, Car) ∧ ∀x (Knows(Charles, x) → Trusts(x, Charles))"}
+{"First-Order Logic": "∃x (Happy(x) → Owns(x, Pet))"}
+{"First-Order Logic": "∀x (Helps(Diana, x) ∨ Knows(Diana, x))"}
+{"First-Order Logic": "∀x ∃y (Friend(x, y) ∧ ¬Friend(y, x))"}
+{"First-Order Logic": "¬∀x (WorksFor(x, Company) → Happy(x))"}
+{"First-Order Logic": "Likes(Jack, Coffee) ∨ ¬Likes(Jack, Tea)"}
+{"First-Order Logic": "∀x (DrinkRegularly(x, alcohol) → IsDependentOn(x, alcohol))"}
+{"First-Order Logic": "∃x (LivesIn(x, City) ∧ ¬Owns(x, House))"}

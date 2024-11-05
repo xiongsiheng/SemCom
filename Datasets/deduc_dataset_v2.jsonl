@@ -1,0 +1,30 @@
+{"FOL sentence": "∀x ∀y (MarriedTo(x, y) → IsFriendOf(x, y))"}
+{"FOL sentence": "∀x ∀y (IsFriendOf(x, y) → IsFriendOf(y, x))"}
+{"FOL sentence": "∀x (Owns(x, Yacht) → Rich(x, x))"}
+{"FOL sentence": "∀x (GraduatedFrom(x, MIT) → WorkedIn(x, Google))"}
+{"FOL sentence": "∀x (GraduatedFrom(x, Stanford) → LivesIn(x, California))"}
+{"FOL sentence": "∀x (LivesIn(x, California) → Happy(x, x))"}
+{"FOL sentence": "∀x (Rich(x, x) ∧ LivesIn(x, California) → Owns(x, VillaInCalifornia))"}
+{"FOL sentence": "∀x ∀y (IsFriendOf(x, y) ∧ Rich(x, x) → (Rich(y, y) ∨ WorkedIn(y, Amazon)))"}
+{"FOL sentence": "∀x (WorkedIn(x, Tesla) → Owns(x, TeslaModelS))"}
+{"FOL sentence": "∀x (LivesIn(x, Miami) → Owns(x, Yacht))"}
+{"FOL sentence": "∀x (GraduatedFrom(x, Harvard) ∧ ¬Rich(x, x) → WorkedIn(x, Amazon))"}
+{"FOL sentence": "∀x (GraduatedFrom(x, Oxford) → LivesIn(x, London))"}
+{"FOL sentence": "∀x (Rich(x, x) ∧ Owns(x, Ferrari488) → LivesIn(x, London))"}
+{"FOL sentence": "∀x (WorkedIn(x, SpaceX) → LivesIn(x, California))"}
+{"FOL sentence": "∀x ∀y ∀z (MarriedTo(x, y) ∧ IsFriendOf(y, z) → IsFriendOf(x, z))"}
+{"FOL sentence": "MarriedTo(Alice, Charlie) ∧ IsFriendOf(Alice, Grace)"}
+{"FOL sentence": "IsFriendOf(Grace, Diana) ∧ IsFriendOf(Diana, Charlie)"}
+{"FOL sentence": "IsFriendOf(Bob, Charlie)"}
+{"FOL sentence": "LivesIn(Alice, SanFrancisco)"}
+{"FOL sentence": "Owns(Alice, VillaInCalifornia)"}
+{"FOL sentence": "WorkedIn(Charlie, Tesla)"}
+{"FOL sentence": "LivesIn(Charlie, SanFrancisco)"}
+{"FOL sentence": "GraduatedFrom(Bob, MIT) ∧ WorkedIn(Bob, Google) ∧ Owns(Bob, TeslaModelS)"}
+{"FOL sentence": "GraduatedFrom(Henry, Harvard) ∧ WorkedIn(Henry, Amazon) ∧ ¬Rich(Henry, Henry)"}
+{"FOL sentence": "Owns(Frank, Yacht) ∧ Rich(Frank, Frank) ∧ LivesIn(Frank, Miami)"}
+{"FOL sentence": "MarriedTo(Frank, Grace)"}
+{"FOL sentence": "GraduatedFrom(Isabelle, Oxford) ∧ LivesIn(Isabelle, London)"}
+{"FOL sentence": "IsFriendOf(Isabelle, Jack) ∧ Owns(Jack, Ferrari488) ∧ Rich(Jack, Jack)"}
+{"FOL sentence": "IsFriendOf(Alice, Bob)"}
+{"FOL sentence": "Rich(Alice, Alice) ∧ Happy(Alice, Alice)"}
